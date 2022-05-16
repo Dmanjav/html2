@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Mapas de imagenes</title>
+        <link rel="stylesheet" href="CSSexterno.css">
+    </head>
+    <body>
+        <h1>Img maps</h1>
+        <hr>
+        <p>No tengo idea de que son.</p>
+        <pre>Aqui dice que es una imagen con areas en las que puedo hacer click.
+            Dice que se definen con las etiquetas de"area".
+            A continuacion me volare el ejemplo de w3Schools.com
+        </pre>
+        <img src="workplace.jpg" alt="ejemplo" usemap="#workmap">
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.html">
+            <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.html">
+        </map>
+        <hr>
+        <pre>
+            En conclusion estan bien perrones y yo creo que los voy a usar mas seguido.
+            Se usa "rect" para rectangulos y primero va x y luego y. Se colocan despues 
+            las de la esquina opuesta. En la computadora son <b><i>34,44,270,350</i></b>.
+                                                             <b><i>x1 y1  x2  y2</i></b>
+ 
+            Para el circulo se dan las coordenadas y luego el radio. Esto se usa en el 
+            cafe de la forma siguiente: <b><i>337,300,44</i></b>.
+                                        <b><i>coords, r</i></b> 
+        </pre>
+        <hr>
+        <h2>Poligonos</h2>
+        <pre>Los poligonos ya son otra onda mucho mas tediosa y complicada.</pre>
+        <img src="frenchfood4.jpg" alt="croissant" usemap="#dificil">
+        <map name="dificil">
+            <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147"
+            href="croissant.html">
+        </map>
+        <p>Esto sale de aqui. <a href="https://www.w3schools.com/html/html_images_imagemap.asp">mapas de imagenes</a></p>
+    </body>
+</html>
